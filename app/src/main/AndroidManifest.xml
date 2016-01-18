@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.solutionz.babysitter.dogbabysitter" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name=".OwnerDetails"
+            android:label="@string/title_activity_owner_details" >
+        </activity>
+        <activity
+            android:name=".ServiceProviders"
+            android:label="@string/title_activity_service_providers" >
+        </activity>
+        <activity
+            android:name=".OwnerCriticalDetails"
+            android:label="@string/title_activity_owner_critical_details" >
+        </activity>
+        <activity
+            android:name=".ServiceProvidersDetails"
+            android:label="@string/title_activity_service_providers_details" >
+        </activity>
+        <activity
+            android:name=".Payments"
+            android:label="@string/title_activity_payments" >
+        </activity>
+        <activity
+            android:name=".Registraton"
+            android:label="@string/title_activity_registraton" >
+        </activity>
+    </application>
+
+</manifest>

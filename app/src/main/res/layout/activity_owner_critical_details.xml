@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.solutionz.babysitter.dogbabysitter.OwnerCriticalDetails">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:inputType="text"
+        android:ems="10"
+        android:hint=" mode of payment"
+        android:id="@+id/email"
+        android:layout_weight="1" />
+<!--
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/darker_gray"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint=" "
+        android:id="@+id/dogsize"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:ems="10"
+            android:background="@android:color/darker_gray"
+            android:hint=" years"
+            android:id="@+id/dogyear"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/darker_gray"
+
+            android:id="@+id/dogmonth"
+            android:layout_weight="1" />
+    </LinearLayout>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint=" Address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint=" preferred service provider details"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:text="Submit"/>
+
+</LinearLayout>

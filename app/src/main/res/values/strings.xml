@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DogBabySitter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_owner_details">OwnerDetails</string>
+    <string name="title_activity_service_providers">ServiceProviders</string>
+    <string name="title_activity_owner_critical_details">OwnerCriticalDetails</string>
+    <string name="title_activity_service_providers_details">ServiceProvidersDetails</string>
+    <string name="title_activity_payments">Payments</string>
+    <string name="title_activity_registraton">Registraton</string>
+</resources>
